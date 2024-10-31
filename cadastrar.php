@@ -62,14 +62,6 @@ if ($_SERVER['REQUES_METHOD']=='POST') {
     $form->addBtn('submit', 'submit-btn', 1, 'Submit', 'class=btn btn-primary ladda-button, data-style=zoom-in');
     ']
 }
-
-
-
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>
