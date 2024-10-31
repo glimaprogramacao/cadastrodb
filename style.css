@@ -1,0 +1,84 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:inter,sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding-top: 0%;
+}
+
+nav a {
+    margin-right: 20px;
+    padding: 5px;
+    display:flex;
+    border-bottom: 5px;
+    text-decoration-color: blueviolet;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    background-color: rgb(149, 152, 151);
+    border: 1px solid rgb(128, 126, 126);
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos gerais do formulário */
+form {
+    max-width:auto;
+    max-height: 200px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    display:flexbox; /* ou grid */
+}
+
+input, textarea, select {
+    margin-bottom: 12px; /* Espaçamento abaixo de cada campo */
+}
+ 
+  /* Estilo para mensagens de erro */
+  form .error {
+    color: #ff5722;
+    font-size: 0.9em;
+  }
+  
+  /* Estilos adicionais para campos específicos */
+  form input {
+    width: auto;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 14pt;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 600px) {
+    form {
+      padding: 1.5em;
+    }
+    
+    form h2 {
+      font-size: 1.5em;
+    }
+  }
